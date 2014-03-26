@@ -1,0 +1,53 @@
+{
+  "name": "kasane",
+  "version": "0.0.0",
+  "description": "Simple promise-based middleware framework",
+  "author": "Meo <i@meo.guru> (http://meo.guru)",
+  "keywords": [
+    "promise",
+    "middleware",
+    "framework"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MeoGuru/kasane.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MeoGuru/kasane/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://en.wikipedia.org/wiki/MIT_License"
+    }
+  ],
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "shien": "0.0.5",
+    "when": "^2.8.0"
+  },
+  "devDependencies": {
+    "load-grunt-tasks": "^0.4.0",
+    "grunt": "^0.4.3",
+    "grunt-contrib-jshint": "^0.8.0",
+    "mocha": "^1.17.1",
+    "chai": "^1.9.0",
+    "blanket": "^1.1.6",
+    "travis-cov": "^0.2.5",
+    "grunt-mocha-test": "^0.9.4"
+  },
+  "main": "./lib/kasane.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "engines": [
+    {
+      "node": ">= 0.10.0"
+    }
+  ],
+  "config": {
+    "travis-cov": {
+      "threshold": 90
+    }
+  }
+}
