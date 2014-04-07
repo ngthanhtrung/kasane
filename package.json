@@ -23,13 +23,13 @@
   ],
   "readmeFilename": "README.md",
   "dependencies": {
-    "shien": "^0.0.7",
-    "when": "^3.0.1"
+    "shien": "^0.0.8",
+    "when": "^3.1.0"
   },
   "devDependencies": {
     "load-grunt-tasks": "^0.4.0",
     "grunt": "^0.4.3",
-    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-jshint": "^0.10.0",
     "mocha": "^1.18.2",
     "chai": "^1.9.1",
     "blanket": "^1.1.6",
