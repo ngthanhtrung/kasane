@@ -1,6 +1,6 @@
 {
   "name": "kasane",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple promise-based middleware framework",
   "author": "Meo <i@meo.guru> (http://meo.guru)",
   "keywords": [
